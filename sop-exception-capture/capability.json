@@ -1,0 +1,44 @@
+{
+  "id": "sop-exception-capture",
+  "name": "SOP exception capture",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.",
+  "directory": "https://fullypowered.ai/capabilities/sop-exception-capture/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/quality-management",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services",
+    "industries/logistics-and-trade",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/acquisitions-and-integration",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "pilot-acceptance-test-preparation",
+    "employee-onboarding-plan",
+    "matter-opening-checklist-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": []
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guides."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pilot-acceptance-test-preparation",
+  "name": "Pilot acceptance-test preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.",
+  "directory": "https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/it-and-systems"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/software-technology"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "sop-exception-capture",
+    "account-handoff",
+    "inquiry-handoff"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": []
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guides."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "repository": "Fully-Powered-AI/operations-capabilities",
+  "title": "Operations",
+  "term": "functions/operations-and-process-improvement",
+  "capabilities": [
+    {
+      "id": "pilot-acceptance-test-preparation",
+      "name": "Pilot acceptance-test preparation",
+      "version": "0.1.0",
+      "summary": "Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.",
+      "path": "pilot-acceptance-test-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/"
+    },
+    {
+      "id": "sop-exception-capture",
+      "name": "SOP exception capture",
+      "version": "0.1.0",
+      "summary": "Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.",
+      "path": "sop-exception-capture/",
+      "directory": "https://fullypowered.ai/capabilities/sop-exception-capture/"
+    }
+  ]
+}
