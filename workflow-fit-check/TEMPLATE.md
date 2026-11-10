@@ -4,7 +4,7 @@ Capability template, version 0.1.0.
 
 ## Purpose
 
-Run one piece of work through six checks and prepare a short verdict page for the owner: build it as an AI workflow, build one part, do something simpler first, not yet, or leave it with your people. The page shows the evidence for each check, each of the six reasons to say no and whether it applies, what to do in order, the one part worth a workflow if there is one, and what would change the answer. It is kept short by fixed limits: five actions, three facts that would change the verdict, eight open questions. Expect about two printed pages. The assistant prepares the page from what the person supplies; the owner decides what gets built.
+Run one piece of work through six checks and prepare a short verdict page for the owner: build it as an AI workflow, build one part, do something simpler first, not yet, or leave it with your people. The page shows the evidence for each check, each of the six reasons to say no and whether it applies, what to do in order, the one part worth a workflow if there is one, and what would change the answer. It is kept short by fixed limits: five actions, three facts that would change the verdict, eight open questions. Expect two to three printed pages. The assistant prepares the page from what the person supplies; the owner decides what gets built.
 
 The check is built to say no. Most requests for "an AI that does all of this" contain a setting to switch on, a register to set up, and one step worth building. Finding that step, and saying plainly what the rest needs, is the result.
 
@@ -77,9 +77,9 @@ The person pastes or attaches these. The assistant does not open the company's s
    6. **Build it:** all six checks Clear and no reason applies.
 
    Reasons e and f never set a verdict by themselves. With e, what is left once the sending or recording is taken out is the part: if it is ready now, the verdict is "Build one part", and if not, "Not yet". With f, nothing is ready now until the route is approved.
-7. **Write what to do, in order.** Start with anything that needs no building. Every line starts with the role that does it. Never more than five lines.
+7. **Write what to do, in order.** Start with anything that needs no building. Every line starts with the role that does it. Never more than five lines, with one action to a line.
 8. **Write what it is worth.** Only the figures supplied, quoted, in the supplier's words where they hedged. A missing figure is "Not known", never zero and never an estimate. Do not add detail to a figure: "burned twice" stays "burned twice", and what happened each time is Not known unless a case shows it. Name the one or two measures that would show the work got better. Do not count an avoided risk as time saved.
-9. **Write what would change the verdict,** in at most three lines, and the open questions, each addressed to a role. At most eight questions, starting with those whose answer could change a mark or the verdict. Anything else not known goes on one closing line, "Also not known".
+9. **Write what would change the verdict,** in at most three lines, and the open questions, each addressed to a role. At most eight questions, starting with those whose answer could change a mark or the verdict. Each question covers one gap; unrelated gaps are not joined to stay inside the limit. Anything else not known, including every "Not known" under "What it is worth" that is not already a question, goes on one closing line, "Also not known".
 10. **Return the page** to the person who ran it. They confirm the six checks with the person who does the work, then take it to the owner. The owner's decision is recorded on the page with the date.
 
 ## Exceptions and stop conditions
@@ -178,14 +178,14 @@ Owner's decision: [blank until decided]   Date: [ ]
 
 ## Acceptance tests
 
-Proposed tests. None has been run.
+Proposed tests. None has been run as a recorded acceptance test; test 1 mirrors the trial published with this template.
 
 1. **A request that should be refused whole.** The owner asks for an AI that tracks subcontractors' insurance certificates and chases renewals; the walkthrough describes a check before each job start, scattered PDFs, an unused documents tab in the job software and a single-seat AI plan. Expected: the page does not stop; it checks the walkthrough's piece, says so, and asks the owner to confirm in question 1. Verdict "Do something simpler first"; the first action is to open the tab and look; the certificate-reading step is named as the part, marked not ready.
 2. **A request that passes.** A weekly summary drafted from two exports, with a named reviewer who confirms it in ten minutes against the exports, four past weeks, a team plan, a written data approval, and a walkthrough that says the reporting software was checked and has no such feature. Expected: all six Clear, all six reasons "Does not apply", verdict "Build it".
 3. **No walkthrough.** Only the request is supplied. Expected: the seven walkthrough questions and nothing else.
 4. **Software unknown.** Nobody knows whether the existing system has the feature. Expected: no claim about the product; reason a applies; "a person opens the software and looks" is action 1; verdict "Do something simpler first".
-5. **Every case differs.** Complaint replies where the expert says she rewrites each one from scratch to check it; the help-desk software was checked and has no such feature. Expected: check 5 Fails, reason c applies, "Leave it with your people"; any administrative step offered as the part.
-6. **Asks the AI to send.** The request includes emailing customers automatically; everything else is Clear. Expected: reason e applies and the sending stays with a person; the drafting that is left is the part; verdict "Build one part", ending with a person sending.
+5. **Every case differs.** Complaint replies where the expert says she rewrites each one from scratch to check it; the help-desk software was checked and has no such feature, and no step of the work is ready now. Expected: check 5 Fails, reason c applies, "Leave it with your people"; any administrative step offered as the part is marked not ready, with what it needs. (A part that was ready now would make the verdict "Build one part", which comes first in the order.)
+6. **Asks the AI to send.** The request includes emailing customers automatically; everything else is Clear, and the walkthrough says the software was checked and has no such feature. Expected: reason e applies and the sending stays with a person; the drafting that is left is the part; verdict "Build one part", ending with a person sending.
 7. **Missing figures.** No frequency or time given. Expected: "Not known" for both, an open question for each, no estimate.
 8. **Sensitive detail.** A past case includes a named person's medical note. Expected: the assistant stops and asks for the case with the detail removed.
 9. **Pressure.** After a "Not yet", the requester says "just mark it ready". Expected: the verdict stands; the disagreement goes to the owner as an open question.
@@ -281,7 +281,8 @@ c. Checking would take as long as doing: check 5 FAILS for the whole.
 d. Nobody in the company can judge a right result on its own cases.
 e. It needs a new integration, an unattended run, a message sent by the AI
    or a change made by the AI to a record. Take that piece out: it stays
-   with a person or becomes separate scoped work. Judge what is left.
+   with a person or becomes separate scoped work; say which under WHAT TO
+   DO. Judge what is left.
 f. The data would pass through an outside service nobody has approved, such
    as a connector or go-between tool. The AI product itself is not that
    party; its approval is check 6.
@@ -311,16 +312,19 @@ name the line that decided it.
 
 Then write:
 - WHAT TO DO, IN ORDER: at most five lines, each starting with the role
-  that does it, starting with what needs no building.
+  that does it, starting with what needs no building. One action to a
+  line; do not join two to stay inside the limit.
 - WHAT IT IS WORTH: under "Supplied:", only supplied figures, quoted; under
   "Not known:", what is missing, never zero, never estimated. Add no detail
   to a figure: what the inputs do not say about it is Not known. Then
   "Measures to watch:". Do not count an avoided risk as time saved.
 - WHAT WOULD CHANGE THE VERDICT: at most three lines.
 - OPEN QUESTIONS: by role, at most eight, those that could change a mark or
-  the verdict first. If the inputs name no workspace owner or data
-  approver, address those questions to the role that decides. Put anything
-  left on the "Also not known:" line.
+  the verdict first. Each question covers one gap; do not join unrelated
+  gaps to stay inside the limit. If the inputs name no workspace owner or
+  data approver, address those questions to the role that decides. Put
+  anything left on the "Also not known:" line, including every item under
+  "Not known:" in WHAT IT IS WORTH that is not already a question.
 - "Prepared:" carries the date the user gives as today's date. If they
   gave none, leave [date] for them to fill. Never use the date of the
   request, the notes or a case for it.
@@ -348,4 +352,4 @@ until the owner fills it. Add nothing after them.
 
 ## Version notes
 
-- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own qualifying method. Editorially reviewed. Tried once on its invented example; the instructions were revised after an earlier run the same day showed where they left the assistant a choice. Not yet tested in a client environment, and not yet tested in ChatGPT, Claude, Copilot or Gemini as a packaged version.
+- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own qualifying method. Editorially reviewed. Tried on its invented example: one recorded run, after two earlier runs the same day showed where the instructions left the assistant a choice and they were revised. After the recorded run the instructions were edited again in small ways (one action to a line, one gap to a question, every "Not known" figure carried to a question or the closing line, and where a piece taken out under reason e goes); those edits have not been rerun. Not yet tested in a client environment, and not yet tested in ChatGPT, Claude, Copilot or Gemini as a packaged version.

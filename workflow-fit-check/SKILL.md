@@ -1,6 +1,6 @@
 ---
 name: "workflow-fit-check"
-description: "Run one piece of work through six checks and prepare a short verdict page for the owner: build it as an AI workflow, build one part, do something simpler first, not yet, or leave it with your people. The page shows the evidence for each check, each of the six reasons to say no and whether it applies, what to do in order, the one part worth a workflow if there is one, and what would change the answer. It is kept short by fixed limits: five actions, three facts that would change the verdict, eight open questions. Expect about two printed pages. The assistant prepares the page from what the person supplies; the owner decides what gets built."
+description: "Run one piece of work through six checks and prepare a short verdict page for the owner: build it as an AI workflow, build one part, do something simpler first, not yet, or leave it with your people. The page shows the evidence for each check, each of the six reasons to say no and whether it applies, what to do in order, the one part worth a workflow if there is one, and what would change the answer. It is kept short by fixed limits: five actions, three facts that would change the verdict, eight open questions. Expect two to three printed pages. The assistant prepares the page from what the person supplies; the owner decides what gets built."
 license: "MIT"
 metadata:
   version: "0.1.0"
@@ -96,7 +96,8 @@ c. Checking would take as long as doing: check 5 FAILS for the whole.
 d. Nobody in the company can judge a right result on its own cases.
 e. It needs a new integration, an unattended run, a message sent by the AI
    or a change made by the AI to a record. Take that piece out: it stays
-   with a person or becomes separate scoped work. Judge what is left.
+   with a person or becomes separate scoped work; say which under WHAT TO
+   DO. Judge what is left.
 f. The data would pass through an outside service nobody has approved, such
    as a connector or go-between tool. The AI product itself is not that
    party; its approval is check 6.
@@ -126,16 +127,19 @@ name the line that decided it.
 
 Then write:
 - WHAT TO DO, IN ORDER: at most five lines, each starting with the role
-  that does it, starting with what needs no building.
+  that does it, starting with what needs no building. One action to a
+  line; do not join two to stay inside the limit.
 - WHAT IT IS WORTH: under "Supplied:", only supplied figures, quoted; under
   "Not known:", what is missing, never zero, never estimated. Add no detail
   to a figure: what the inputs do not say about it is Not known. Then
   "Measures to watch:". Do not count an avoided risk as time saved.
 - WHAT WOULD CHANGE THE VERDICT: at most three lines.
 - OPEN QUESTIONS: by role, at most eight, those that could change a mark or
-  the verdict first. If the inputs name no workspace owner or data
-  approver, address those questions to the role that decides. Put anything
-  left on the "Also not known:" line.
+  the verdict first. Each question covers one gap; do not join unrelated
+  gaps to stay inside the limit. If the inputs name no workspace owner or
+  data approver, address those questions to the role that decides. Put
+  anything left on the "Also not known:" line, including every item under
+  "Not known:" in WHAT IT IS WORTH that is not already a question.
 - "Prepared:" carries the date the user gives as today's date. If they
   gave none, leave [date] for them to fill. Never use the date of the
   request, the notes or a case for it.

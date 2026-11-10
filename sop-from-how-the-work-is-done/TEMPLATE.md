@@ -14,7 +14,7 @@ Do not use it:
 
 - for several procedures at once. Write one per run, starting with the owner's choice;
 - to redesign the work. It records today's practice; ideas for improvement are listed as questions, never written into the steps;
-- when a written procedure already exists and the need is the awkward cases. That is the companion capability, SOP exception capture, which works from real cases and a conversation with the expert;
+- when a written procedure already exists and the need is the awkward cases. That is the companion capability, SOP exception capture, which works from real cases and a conversation with the expert. Where nothing is written yet, this capability comes first;
 - to write rules for a reserved judgment such as legal advice, a clinical decision or a hiring decision. The procedure records who makes that judgment and when the work goes to them, nothing more. Employment documents and contract wording are out of scope.
 
 ## Roles
@@ -46,7 +46,7 @@ Do not use it:
    - What tells you the whole thing is finished?
 3. **Apply the redaction rule.** Refer to people by role. If the material holds customer or staff detail the rule excludes, stop and ask for a redacted version. If no rule is supplied, refer to people by role, go on, and ask for the rule in the closing list.
 4. **Settle the boundary before any step.** From the material, write what starts the work, the observable state that ends it, what is not covered and how often it runs. If the start or the end cannot be found, ask the preparer one question at a time until both are settled.
-5. **List the roles.** Every role the material names, with what it does in this procedure. "The team" is not a role, and neither is a department such as "the warehouse": write the role as `[To confirm]` and add an open question asking which role.
+5. **List the roles.** Every role the material names, with what it does in this procedure. "The team" is not a role, and neither is a department such as "the warehouse": write the role as `[To confirm]` and add an open question asking which role. A team named only in what starts the work, before step 1, does no step here and may stay as the doer named it.
 6. **Write the steps** in the order the doer described.
    - One action per step, opening with a verb, with exactly one role. Work another role does is its own step. An approval or answer given at a stop condition is not a step; it stays in the stop condition.
    - "How" stays close to the doer's words and names the system or document used.
@@ -113,7 +113,8 @@ How often: [frequency, or To confirm]
      [Cannot be undone. Approved by: [role]. Only where they apply.]
      Done when: [observable check, or To confirm]. Source: [lines].
 [n]. DECISION: [yes-or-no question] [Role].
-     How to tell: [where the doer looks, in their words, or To confirm].
+     How to tell: [where the doer looks, in their words; or the earlier
+     step or supplied limit that answers it; or To confirm].
      If yes: go to step [n]. If no: [go to step n | follow E[n] | stop, S[n]].
      Source: [lines].
 
@@ -211,10 +212,11 @@ Drafting:
 6. Steps: the doer's order; one action and exactly one role per step,
    opening with a verb; "How" close to the doer's words. Cite the source
    lines for every step. "The team" or a department ("the warehouse") is
-   not a role: write the role as [To confirm] and ask which role. If
-   another role does part of the work, that is its own step. An approval
-   or answer given at a stop condition is not a step; it stays in the
-   stop condition.
+   not a role: write the role as [To confirm] and ask which role. A team
+   named only in what starts the work, before step 1, does no step and
+   may stay as the doer named it. If another role does part of the work,
+   that is its own step. An approval or answer given at a stop condition
+   is not a step; it stays in the stop condition.
    "Done when" is something another person can see or check, taken from
    the material. It may restate the visible result the step itself names
    (a step that closes the ticket is done when the ticket is closed). It

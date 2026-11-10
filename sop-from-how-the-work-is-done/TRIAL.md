@@ -67,3 +67,12 @@ Where the reply falls short or the instructions still leave a choice:
 6. **The tagging of the ticket** is done by "customer service", a department. The third run did not ask which role; the second did. It happens before the procedure starts, and the rule does not say whether that counts.
 
 Shortcomings of this trial: three runs, one model, on tidy invented inputs with a clear start and end. The runs differed in step count (17 and 15 on nearly the same instructions), so the shape of a draft is not fixed by the template alone. No run exercised a path that stops the work (no owner, no walkthrough, detail to redact, more than one procedure, more than 20 steps, a shared sign-in), and none of the template's ten proposed acceptance tests was run as such. Whether the draft matches how the work is really done cannot be judged from invented material: the doer's read and the owner's approval are steps for people and were not part of any run.
+
+## Edits after the recorded runs
+
+9 November 2026. The template was edited after the third run, and no run was repeated. Two changes touch the instructions and the output format, each answering a shortfall above:
+
+- **Shortfall 1.** The format's "How to tell" line now also allows a pointer to the earlier step or the supplied limit that answers the decision, as steps 4 and 8 of the recorded output have it.
+- **Shortfall 6.** The instructions now say that a team named only in what starts the work, before step 1, does no step and may stay as the doer named it, which is what the third run did.
+
+A sentence was also added under "When to use it and when not to", saying this capability comes first where nothing is written yet. The recorded output is unchanged.

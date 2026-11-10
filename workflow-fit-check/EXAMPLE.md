@@ -137,17 +137,16 @@ WHAT TO DO, IN ORDER
    with the software's help pages beside you, and note whether it holds
    expiry dates and sends reminders. If it does, the owner has it switched
    on and nothing is built.
-2. Owner: say which result you want (question 1), and name one place every
-   certificate is sent.
+2. Owner: name one place every certificate is sent.
 3. Operations manager: put every sub's certificates and licences, with
    their expiry dates, in one list: the tab if it does the job, otherwise a
-   simple register with a reminder on each date.
+   simple register with a reminder on each date. Keeping the list and
+   chasing renewals stay with you; neither becomes separate work.
 4. Operations manager: for one month, count the job starts with subs and
    the minutes each check takes.
-5. Owner: if the part below is still wanted once the list exists, give the
-   operations manager an account on a plan that lets a team share
-   instructions, and write down whether certificates may go into the AI
-   product.
+5. Owner: if the part below is still wanted once the list exists, settle
+   questions 2 and 3 (the data approval; the account, plan and workspace)
+   before anything is built.
 
 THE PART WORTH A WORKFLOW
 Reading one incoming certificate. The operations manager gives the
@@ -194,19 +193,19 @@ For the owner:
    own the workspace?
 4. What is your bar for "quick to check"? The default was used: under half
    the time the work takes.
-5. What was the second time you were "burned"?
 For the operations manager:
-6. Does the "Vendor documents" tab hold expiry dates, and does it send
+5. Does the "Vendor documents" tab hold expiry dates, and does it send
    reminders?
-7. What do you do with additional-insured wording, a broker's letter, and
+6. What do you do with additional-insured wording, a broker's letter, and
    a sub working under another company's policy, and who decides each?
-8. Where are trade licences kept, and can the job software give you next
-   week's starts with subs as a file?
-Also not known: a counted number of starts per month; how long a check
-takes when the files are hard to find; what the stand-down day cost.
+7. Where are trade licences kept?
+8. Can the job software give you next week's starts with subs as a file?
+Also not known: what happened the second time the company was "burned"; a
+counted number of starts per month; how long a check takes when the files
+are hard to find; what the stand-down day cost.
 
 Status: Prepared for the owner's decision. Nothing built, sent or changed.
 Owner's decision: [blank until decided]   Date: [ ]
 ```
 
-Marcus read the page with Priya and decided to start with step 1. That decision is his, and he writes it on the last line with the date; the page only prepared it.
+Marcus read the page with Priya and decided to start with action 1. That decision is his, and he writes it on the last line with the date; the page only prepared it.

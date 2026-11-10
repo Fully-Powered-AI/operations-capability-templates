@@ -6,7 +6,7 @@ Before you build anything, run one piece of work through six checks and get a st
 
 ## The outcome
 
-You stop guessing which piece of work to hand to AI first. Each candidate gets the same six checks and one short page that says what to do, why, and what would change the answer. The work that is ready goes to the front of the line. The work that only needs a setting switched on or a simple register gets that, this week, at no cost to build.
+You stop guessing which piece of work to hand to AI first. Each candidate gets the same six checks and one short page that says what to do, why, and what would change the answer. The work that is ready goes to the front of the line. The work that only needs a setting switched on or a simple register gets that, often within the week, at no cost to build.
 
 Building the right thing first is the fastest way to 10X what your team can do. A fit check that says “do not build this” is doing its job: it saves the weeks you would have spent on a workflow nobody could check, and it usually finds the one step inside the request that is worth building.
 
@@ -29,10 +29,10 @@ Anything you do not know, you say so. The check marks each gap “Not known” a
 
 ## What comes out
 
-One short page per piece of work, about two printed pages, held to five actions and eight open questions:
+One short page per piece of work, two to three printed pages, held to five actions and eight open questions:
 
 1.  **The six checks,** each marked clear, not clear or fails, with the words from your notes that show why: the people; start and finish; inputs; exceptions; examples and a way to judge; platform and permission.
-2.  **The six reasons to say no,** each shown as applying or not: your software already does it; it is a list, a register or a reminder; checking would take as long as doing; nobody here can judge it; it needs more than a person-run workflow; the data would pass through a party nobody has approved.
+2.  **The six reasons to say no,** each shown as applying or not: your software already does it; it is a list, a register, a reminder or a fixed rule; checking would take as long as doing; nobody here can judge it; it needs more than a person-run workflow; the data would pass through a party nobody has approved.
 3.  **The verdict,** one of five: build it, build one part, do something simpler first, not yet, or leave it with your people. A fixed order decides when more than one fits, and the page says which line decided.
 4.  **What to do,** in order, each line with the role that does it, starting with anything you can do without building.
 5.  **The part worth a workflow,** if there is one, with what it would never do.
@@ -61,7 +61,7 @@ Name who decides what gets built. Say which AI product and plan you are on, and 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own method for qualifying a piece of work before building. It was editorially reviewed on 9 November 2026. It was tried once on its invented example, in Claude on 9 November 2026, and the record of that run is published with it. One run on an invented example is not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this capability template from its own method for qualifying a piece of work before building. It was editorially reviewed on 9 November 2026. It was tried on its invented example, in Claude on 9 November 2026: one recorded run, after two earlier runs the same day on earlier wording. The record is published with it and lists the small edits made to the instructions since. Runs on one invented example are not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on two or three requests whose answer you already know, including one you built and regret, and seeing whether the page reaches the same answer for the same reasons. When a piece of work passes, [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/) records how your best person handles its awkward cases, and [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets up the cases that prove the build.
 

@@ -50,10 +50,11 @@ Drafting:
 6. Steps: the doer's order; one action and exactly one role per step,
    opening with a verb; "How" close to the doer's words. Cite the source
    lines for every step. "The team" or a department ("the warehouse") is
-   not a role: write the role as [To confirm] and ask which role. If
-   another role does part of the work, that is its own step. An approval
-   or answer given at a stop condition is not a step; it stays in the
-   stop condition.
+   not a role: write the role as [To confirm] and ask which role. A team
+   named only in what starts the work, before step 1, does no step and
+   may stay as the doer named it. If another role does part of the work,
+   that is its own step. An approval or answer given at a stop condition
+   is not a step; it stays in the stop condition.
    "Done when" is something another person can see or check, taken from
    the material. It may restate the visible result the step itself names
    (a step that closes the ticket is done when the ticket is closed). It
@@ -147,7 +148,8 @@ How often: [frequency, or To confirm]
      [Cannot be undone. Approved by: [role]. Only where they apply.]
      Done when: [observable check, or To confirm]. Source: [lines].
 [n]. DECISION: [yes-or-no question] [Role].
-     How to tell: [where the doer looks, in their words, or To confirm].
+     How to tell: [where the doer looks, in their words; or the earlier
+     step or supplied limit that answers it; or To confirm].
      If yes: go to step [n]. If no: [go to step n | follow E[n] | stop, S[n]].
      Source: [lines].
 
