@@ -2,14 +2,17 @@
 
 Work that runs the way your best person runs it, every time. These capability templates capture how the work is really done, exceptions included, and prove a new way of working on real cases before anyone relies on it.
 
-This repository holds 4 capability templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 7 capability templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
+- **[Incident investigation and corrective actions](incident-investigation-and-corrective-actions/)**: After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.
 - **[Pilot acceptance-test preparation](pilot-acceptance-test-preparation/)**: Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.
+- **[Premortem before a decision](premortem-before-a-decision/)**: Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.
 - **[SOP exception capture](sop-exception-capture/)**: Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.
 - **[Write an SOP from how the work is done](sop-from-how-the-work-is-done/)**: Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.
 - **[Workflow fit check: is this piece of work ready for AI?](workflow-fit-check/)**: Before you build anything, run one piece of work through six checks and get a straight answer on one short page: build it, build one part, do something simpler first, not yet, or leave it with your people. The owner decides what gets built first, with the reasons in front of them.
+- **[Workplace risk assessment](workplace-risk-assessment/)**: For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.
 
 ## How to use one
 

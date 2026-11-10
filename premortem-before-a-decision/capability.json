@@ -1,0 +1,70 @@
+{
+  "id": "premortem-before-a-decision",
+  "name": "Premortem before a decision",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.",
+  "directory": "https://fullypowered.ai/capabilities/premortem-before-a-decision/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/leadership",
+    "functions/project-and-delivery"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/new-business-lines",
+    "situations/acquisitions-and-integration"
+  ],
+  "related": [
+    "launch-checklist",
+    "pilot-acceptance-test-preparation",
+    "workflow-fit-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design for the record: two passes around the room's ratings, reasons never attributed, counts of who named each cause, a fixed ranking and tie order, the top-risk rule for serious harm with no warning, the lone-view flag, checks counted against the go date, gaps turned into the owner's questions, and a blank decision line."
+    },
+    {
+      "kind": "third-party",
+      "repository": "deciqAI/knowledge-skills",
+      "commit": "2db68aa3476e5b2af400cc1cb12271c90674d74e",
+      "path": "premortem/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The premortem method: treat the plan as already failed and explain why, write privately before discussing, group and rate the causes, give the serious ones an owner and a signal to watch, and book the next premortem.",
+      "text_reused": false,
+      "notice": "notices/deciqAI-knowledge-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "deciqAI/knowledge-skills",
+      "commit": "2db68aa3476e5b2af400cc1cb12271c90674d74e",
+      "path": "premortem/examples/backcasting-ai-agent-startup-failure-2024-2026.md",
+      "licence": "MIT",
+      "contribution": "From its worked example: a facilitator with no stake in the outcome, a participant from outside the plan who has seen similar work, and a standing rule that a named event brings the next premortem forward.",
+      "text_reused": false,
+      "notice": "notices/deciqAI-knowledge-skills-LICENSE.txt"
+    }
+  ]
+}

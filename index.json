@@ -4,12 +4,28 @@
   "term": "functions/operations-and-process-improvement",
   "capabilities": [
     {
+      "id": "incident-investigation-and-corrective-actions",
+      "name": "Incident investigation and corrective actions",
+      "version": "0.1.0",
+      "summary": "After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.",
+      "path": "incident-investigation-and-corrective-actions/",
+      "directory": "https://fullypowered.ai/capabilities/incident-investigation-and-corrective-actions/"
+    },
+    {
       "id": "pilot-acceptance-test-preparation",
       "name": "Pilot acceptance-test preparation",
       "version": "0.1.0",
       "summary": "Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.",
       "path": "pilot-acceptance-test-preparation/",
       "directory": "https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/"
+    },
+    {
+      "id": "premortem-before-a-decision",
+      "name": "Premortem before a decision",
+      "version": "0.1.0",
+      "summary": "Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.",
+      "path": "premortem-before-a-decision/",
+      "directory": "https://fullypowered.ai/capabilities/premortem-before-a-decision/"
     },
     {
       "id": "sop-exception-capture",
@@ -34,6 +50,14 @@
       "summary": "Before you build anything, run one piece of work through six checks and get a straight answer on one short page: build it, build one part, do something simpler first, not yet, or leave it with your people. The owner decides what gets built first, with the reasons in front of them.",
       "path": "workflow-fit-check/",
       "directory": "https://fullypowered.ai/capabilities/workflow-fit-check/"
+    },
+    {
+      "id": "workplace-risk-assessment",
+      "name": "Workplace risk assessment",
+      "version": "0.1.0",
+      "summary": "For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.",
+      "path": "workplace-risk-assessment/",
+      "directory": "https://fullypowered.ai/capabilities/workplace-risk-assessment/"
     }
   ]
 }

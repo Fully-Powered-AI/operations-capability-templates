@@ -1,0 +1,97 @@
+{
+  "id": "incident-investigation-and-corrective-actions",
+  "name": "Incident investigation and corrective actions",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.",
+  "directory": "https://fullypowered.ai/capabilities/incident-investigation-and-corrective-actions/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/health-safety-and-environment",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "sop-from-how-the-work-is-done",
+    "training-needs-analysis",
+    "sop-exception-capture"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work and the form of this one: the investigation lead's notes and evidence as the only authority, stated column headers with a stop when one does not match, owners and dates only from people, suggested actions marked as not agreed, a register carried to verified closure across update runs, reporting read from the company's own rules and confirmed by its qualified person, every gap written as a question, and nothing sent, reported or recorded until a person decides."
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/incident-investigation/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Labels in place of names before any analysis, with the key kept apart; a numbered evidence log and a timeline before any cause; every cause tied to evidence, an unsupported cause never a root cause; actions ranked by the order of controls with an owner, a date and a cause link; care before a record is shared widely.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/incident-investigation/references/sme-review.md",
+      "licence": "Apache-2.0",
+      "contribution": "Immediate, contributing and root causes kept apart; an analysis that stops at a person's act is not finished; asking whether this has happened before; actions that leave the organisational cause untouched are a gap.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/incident-investigation/references/intake.md",
+      "licence": "Apache-2.0",
+      "contribution": "Asking for the procedures and permits that were meant to be in force for the task, as bearing on causes and not on blame; earlier incidents on the same equipment or task as one of the kinds of evidence to gather.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/capa-manager/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "For every cause, one action that puts this occurrence right and at least one that keeps it from happening again; a dated check on every action; no action counted as working before its check result is written down; a status on each action until it closes.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/capa-manager/references/sme-review.md",
+      "licence": "Apache-2.0",
+      "contribution": "A check should look for the intended effect, not just finished work; a preventive action that only repeats the corrective one is a gap; a serious hazard needs a stopgap control until the permanent fix is in.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    }
+  ]
+}
