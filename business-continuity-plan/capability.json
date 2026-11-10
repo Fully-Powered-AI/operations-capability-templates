@@ -1,0 +1,119 @@
+{
+  "id": "business-continuity-plan",
+  "name": "Business continuity plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "For an owner or operations manager: the activities the business cannot stop for long, how long each can be down and how much data it can lose, what each depends on, the fallback for each, and named owners, deputies, contacts and a test date, ready for a competent reviewer and the owner's approval.",
+  "directory": "https://fullypowered.ai/capabilities/business-continuity-plan/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/compliance-risk-and-privacy",
+    "functions/it-and-systems"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/professional-services",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "workplace-risk-assessment",
+    "incident-investigation-and-corrective-actions",
+    "premortem-before-a-decision"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work and the form of this one: the owner's tables and notes as the only authority, stated column headers with a stop on a mismatch, times compared in hours with an age limit on proof, a contact line checked for every outside organization, a deputy who is the lead flagged, fallback options offered and never chosen, every gap written as a decision for a named role, no law or standard cited, and blank blocks for the reviewer's review and the owner's approval."
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Carrying on the work kept apart from the emergency response, with the emergency plan pointed to; no recovery time until the activities and their dependencies are known; the longest bearable outage with a shorter recovery target and a limit on lost data for each activity; a fallback for every dependency; a deputy for every recovery role; tests and review dates; personal details kept out of the shared plan; review by a competent person.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/references/intake.md",
+      "licence": "Apache-2.0",
+      "contribution": "The kinds of disruption worth asking about, the records worth asking for before any times are set, a deputy named for each recovery role, and how often to test and when to review.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/references/METHODOLOGY.md",
+      "licence": "Apache-2.0",
+      "contribution": "The bearable outage worked out from how the damage grows with time; the limit on lost data weighed against how often data is backed up; a dependency with no alternative singled out; examples of a fallback suited to each kind of dependency; who starts and ends the plan; no plan counted on until it has been tested.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/references/sme-review.md",
+      "licence": "Apache-2.0",
+      "contribution": "Weak spots to look for: nobody named to start the plan or no trigger for it, a recovery that takes longer than its target with nothing covering the gap, a fallback that relies on the same supplier or site, and backups never restored.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/references/QUALITY_CHECKLIST.md",
+      "licence": "Apache-2.0",
+      "contribution": "A check before the draft is returned: a recovery target shorter than the bearable outage, with the margin stated; every dependency covered by a fallback; a deputy for every recovery role; an untested plan treated as a gap and never as ready; a review date; the emergency plan pointed to; no home address or health note in the shared plan.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/assets/business-continuity-plan-report.template.json",
+      "licence": "Apache-2.0",
+      "contribution": "Laying the plan out as tables: activities with what they produce, how the damage grows and what they rely on, and recovery roles with an owner, a deputy and a responsibility.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/business-continuity-plan/evals/evals.json",
+      "licence": "Apache-2.0",
+      "contribution": "The hard cases of a recovery target equal to the bearable outage, a target with nothing behind it, a single supplier with no alternative, a home address and a health note in a roster to be shared, and a bare request for recovery times, used here as acceptance tests in new scenarios.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "preventive-maintenance-plan",
+  "name": "Preventive maintenance plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "For one site, the facilities or operations manager gets every piece of equipment ranked by failure cost, an approach for each (run to failure, scheduled or condition-based), a dated calendar of tasks from the maker's guidance and the failure history, the spare parts to hold and the downtime measures to track.",
+  "directory": "https://fullypowered.ai/capabilities/preventive-maintenance-plan/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/health-safety-and-environment"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/hospitality",
+    "industries/real-estate"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling",
+    "situations/acquisitions-and-integration"
+  ],
+  "related": [
+    "operations-kpi-scorecard",
+    "inventory-reorder-plan",
+    "workplace-risk-assessment"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work and the form of this one: the manager's files as the only authority, with set column headings and a stop on a mismatch; failure cost with the sum shown and cost bands; intervals never lengthened and never changed on safety-critical equipment, and shortened only on repeated failures of one part; a dated calendar with overdue and unrecorded tasks flagged; spare-part minimums and shortfalls for approval, never ordered; measures with a baseline and no target; every gap written as a decision for a named role; and a section for the competent person, with no engineering sign-off given."
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/maintenance-planning/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Grouping equipment by how much a failure matters, with a risk to safety in the top group, and fitting the kind of maintenance to each group; a breakdown's cost as time stopped plus repair; the maker's figures where the record is thin; mean time between failures and mean time to repair as measures; spares sized from use during the supplier's lead time; a schedule grouped by how often tasks recur.",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}

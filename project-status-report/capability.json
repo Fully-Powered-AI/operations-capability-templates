@@ -1,0 +1,67 @@
+{
+  "id": "project-status-report",
+  "name": "Project status report",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The lead of an internal project gets a status report the sponsor can read in two minutes: each workstream red, amber or green with the reason, what moved, who must clear each blocker, the decisions needed and the dates at risk. No milestone is called done without evidence, and the lead confirms every status.",
+  "directory": "https://fullypowered.ai/capabilities/project-status-report/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/project-and-delivery",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/engineering-firms",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "decision-log",
+    "meeting-agenda-notes-and-follow-ups",
+    "client-status-update-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for the report: a milestone counts as done only with the evidence the plan asks for, colours tied to the plan's dates and that evidence, a red mark when the end date is forecast to move, no colour greener than either the rules or the workstream lead's own proposal, dates at risk traced through what each milestone waits on, the comparison with the last report, the stop on unmatched export headings, and the project lead's confirmation of every mark before the report goes."
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "agentic-office/skills/progress-tracker/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A red, amber or green mark per project with a short reason; the three tests behind each colour (a milestone missed or at risk, a blocker, a decision overdue or due soon); the split between a blocker with a workaround and one without; no green mark after a missed date unless a later date was agreed; an owner and a day count for every blocker, with escalation after a week; milestones with owners, a stated finish, their dependencies and a statement of when each is done, which sit behind the plan's 'Depends on' and 'Evidence required' columns; a one-page limit with the overall mark first.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "rampstackco/claude-skills",
+      "commit": "482c9bf74697fc1e311bd4dca5ce301f046c4b76",
+      "path": "skills/stakeholder-communication/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The conclusion in the opening sentence; decision requests set apart with options, a recommendation and a date; results reported rather than effort; a status that stays amber treated as a warning; unanswered requests chased; the next report's date named.",
+      "text_reused": false,
+      "notice": "notices/rampstackco-claude-skills-LICENSE.txt"
+    }
+  ]
+}

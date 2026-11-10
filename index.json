@@ -4,12 +4,28 @@
   "term": "functions/operations-and-process-improvement",
   "capabilities": [
     {
+      "id": "business-continuity-plan",
+      "name": "Business continuity plan",
+      "version": "0.1.0",
+      "summary": "For an owner or operations manager: the activities the business cannot stop for long, how long each can be down and how much data it can lose, what each depends on, the fallback for each, and named owners, deputies, contacts and a test date, ready for a competent reviewer and the owner's approval.",
+      "path": "business-continuity-plan/",
+      "directory": "https://fullypowered.ai/capabilities/business-continuity-plan/"
+    },
+    {
       "id": "incident-investigation-and-corrective-actions",
       "name": "Incident investigation and corrective actions",
       "version": "0.1.0",
       "summary": "After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.",
       "path": "incident-investigation-and-corrective-actions/",
       "directory": "https://fullypowered.ai/capabilities/incident-investigation-and-corrective-actions/"
+    },
+    {
+      "id": "operations-kpi-scorecard",
+      "name": "Operations KPI scorecard",
+      "version": "0.1.0",
+      "summary": "Once a month the operations manager gets one red-amber-green page for the ten or fewer measures that run the operation: each value worked out from your own exports, its trend, what moved and why in the owner's words, and the action agreed for every red. You set the measures and decide the actions.",
+      "path": "operations-kpi-scorecard/",
+      "directory": "https://fullypowered.ai/capabilities/operations-kpi-scorecard/"
     },
     {
       "id": "pilot-acceptance-test-preparation",
@@ -26,6 +42,22 @@
       "summary": "Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.",
       "path": "premortem-before-a-decision/",
       "directory": "https://fullypowered.ai/capabilities/premortem-before-a-decision/"
+    },
+    {
+      "id": "preventive-maintenance-plan",
+      "name": "Preventive maintenance plan",
+      "version": "0.1.0",
+      "summary": "For one site, the facilities or operations manager gets every piece of equipment ranked by failure cost, an approach for each (run to failure, scheduled or condition-based), a dated calendar of tasks from the maker's guidance and the failure history, the spare parts to hold and the downtime measures to track.",
+      "path": "preventive-maintenance-plan/",
+      "directory": "https://fullypowered.ai/capabilities/preventive-maintenance-plan/"
+    },
+    {
+      "id": "project-status-report",
+      "name": "Project status report",
+      "version": "0.1.0",
+      "summary": "The lead of an internal project gets a status report the sponsor can read in two minutes: each workstream red, amber or green with the reason, what moved, who must clear each blocker, the decisions needed and the dates at risk. No milestone is called done without evidence, and the lead confirms every status.",
+      "path": "project-status-report/",
+      "directory": "https://fullypowered.ai/capabilities/project-status-report/"
     },
     {
       "id": "sop-exception-capture",

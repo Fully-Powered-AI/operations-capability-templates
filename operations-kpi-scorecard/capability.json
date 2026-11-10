@@ -1,0 +1,57 @@
+{
+  "id": "operations-kpi-scorecard",
+  "name": "Operations KPI scorecard",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Once a month the operations manager gets one red-amber-green page for the ten or fewer measures that run the operation: each value worked out from your own exports, its trend, what moved and why in the owner's words, and the action agreed for every red. You set the measures and decide the actions.",
+  "directory": "https://fullypowered.ai/capabilities/operations-kpi-scorecard/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/analytics-and-reporting"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "incident-investigation-and-corrective-actions",
+    "sop-exception-capture",
+    "budget-versus-actual-variance-commentary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work and the form of this one: the operations manager's measure sheet as the only authority, stated column headers with a stop when one does not match, every value shown with its working, missing data never counted as zero, reasons only from the owners' notes, a red covered only by an open agreed action, every gap written as a question, and nothing sent or changed until a person decides."
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "operations-intelligence/skills/metrics/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A cap of ten measures; each measure written down with its calculation, data source, owner and good direction; a red level on every measure; a single person answering for each; measures that signal trouble ahead beside ones that report results already in; a monthly page comparing this month with last, with how each red is being handled, the ambers in view and last month's agreed work reported.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    }
+  ]
+}
