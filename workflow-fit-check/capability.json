@@ -1,0 +1,50 @@
+{
+  "id": "workflow-fit-check",
+  "name": "Workflow fit check: is this piece of work ready for AI?",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before you build anything, run one piece of work through six checks and get a straight answer on one short page: build it, build one part, do something simpler first, not yet, or leave it with your people. The owner decides what gets built first, with the reasons in front of them.",
+  "directory": "https://fullypowered.ai/capabilities/workflow-fit-check/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/leadership"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "sop-exception-capture",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own method for qualifying a piece of work before building: the six checks and the named reasons to say no."
+    },
+    {
+      "kind": "own",
+      "title": "Its own worked verdict on an invented request to track subcontractor paperwork before a job starts."
+    }
+  ]
+}

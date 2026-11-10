@@ -1,5 +1,5 @@
 {
-  "repository": "Fully-Powered-AI/operations-capabilities",
+  "repository": "Fully-Powered-AI/operations-capability-templates",
   "title": "Operations",
   "term": "functions/operations-and-process-improvement",
   "capabilities": [
@@ -18,6 +18,22 @@
       "summary": "Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.",
       "path": "sop-exception-capture/",
       "directory": "https://fullypowered.ai/capabilities/sop-exception-capture/"
+    },
+    {
+      "id": "sop-from-how-the-work-is-done",
+      "name": "Write an SOP from how the work is done",
+      "version": "0.1.0",
+      "summary": "Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.",
+      "path": "sop-from-how-the-work-is-done/",
+      "directory": "https://fullypowered.ai/capabilities/sop-from-how-the-work-is-done/"
+    },
+    {
+      "id": "workflow-fit-check",
+      "name": "Workflow fit check: is this piece of work ready for AI?",
+      "version": "0.1.0",
+      "summary": "Before you build anything, run one piece of work through six checks and get a straight answer on one short page: build it, build one part, do something simpler first, not yet, or leave it with your people. The owner decides what gets built first, with the reasons in front of them.",
+      "path": "workflow-fit-check/",
+      "directory": "https://fullypowered.ai/capabilities/workflow-fit-check/"
     }
   ]
 }

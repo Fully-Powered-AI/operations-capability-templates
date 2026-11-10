@@ -1,0 +1,67 @@
+{
+  "id": "sop-from-how-the-work-is-done",
+  "name": "Write an SOP from how the work is done",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.",
+  "directory": "https://fullypowered.ai/capabilities/sop-from-how-the-work-is-done/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/ecommerce-and-retail",
+    "industries/logistics-and-trade",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "sop-exception-capture",
+    "pilot-acceptance-test-preparation",
+    "employee-onboarding-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guides, and its published companion, SOP exception capture."
+    },
+    {
+      "kind": "third-party",
+      "repository": "microsoft/cat-agent-skills",
+      "commit": "3158d47b2ae78e98027487d7a744827931a20d0a",
+      "path": "submissions/process-sop-architect",
+      "licence": "MIT",
+      "contribution": "The discipline of settling the trigger, start, end and exclusions before any step is written; one owner per step; both paths for every decision; facts kept apart from assumptions; missing facts marked and listed as open questions, asked one at a time; limits, approvals and policy requirements never invented; a long procedure split into parts (the source's ceiling is 25 steps, this template's is 20).",
+      "text_reused": false,
+      "notice": "notices/microsoft-cat-agent-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/knowledge-ops",
+      "licence": "MIT",
+      "contribution": "The checks that keep a procedure usable: a named owner and a review date, an observable sign that each step is done, a note on any step that cannot be undone and who is asked, a team never standing in for a named role, and coverage of the common ways the work goes wrong.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    }
+  ]
+}
