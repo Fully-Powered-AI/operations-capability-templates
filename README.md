@@ -2,7 +2,7 @@
 
 Work that runs the way your best person runs it, every time. These capability templates capture how the work is really done, exceptions included, and prove a new way of working on real cases before anyone relies on it.
 
-This repository holds 11 capability templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 12 capability templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
@@ -12,6 +12,7 @@ This repository holds 11 capability templates for operations leaders and the peo
 - **[Pilot acceptance-test preparation](pilot-acceptance-test-preparation/)**: Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.
 - **[Premortem before a decision](premortem-before-a-decision/)**: Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.
 - **[Preventive maintenance plan](preventive-maintenance-plan/)**: For one site, the facilities or operations manager gets every piece of equipment ranked by failure cost, an approach for each (run to failure, scheduled or condition-based), a dated calendar of tasks from the maker's guidance and the failure history, the spare parts to hold and the downtime measures to track.
+- **[Process map and bottleneck review](process-map-and-bottleneck-review/)**: Map one process step by step: who does each step, how long work waits and how long it takes, where it is handed over and where it gets sent back. Then find the one step that caps how much gets finished, and what to try there first. The owner decides what changes.
 - **[Project status report](project-status-report/)**: The lead of an internal project gets a status report the sponsor can read in two minutes: each workstream red, amber or green with the reason, what moved, who must clear each blocker, the decisions needed and the dates at risk. No milestone is called done without evidence, and the lead confirms every status.
 - **[SOP exception capture](sop-exception-capture/)**: Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.
 - **[Write an SOP from how the work is done](sop-from-how-the-work-is-done/)**: Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.

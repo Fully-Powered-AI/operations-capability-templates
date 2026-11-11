@@ -1,0 +1,88 @@
+{
+  "id": "process-map-and-bottleneck-review",
+  "name": "Process map and bottleneck review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Map one process step by step: who does each step, how long work waits and how long it takes, where it is handed over and where it gets sent back. Then find the one step that caps how much gets finished, and what to try there first. The owner decides what changes.",
+  "directory": "https://fullypowered.ai/capabilities/process-map-and-bottleneck-review/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "workflow-fit-check",
+    "sop-from-how-the-work-is-done",
+    "sop-exception-capture"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own method for naming a process constraint: each role's weekly load computed from the hours it gives the process, send-backs counted into that load, the constraint's capacity checked against what is finished, the hours each first option could return counted from the inputs, and every change left to the owner."
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/process-mapper/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Timing every step and naming who does it, with waiting counted apart from working; treating work sent back to an earlier step as part of the process rather than leaving it off; a view of which role does which steps, from which the hand-overs are counted; a flag on every figure saying whether it was measured; describing the process as it runs now, not as it is meant to run; one repeating process per review, never a one-off project; and directing improvement at the constraint alone.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "glebis/claude-skills",
+      "commit": "3b8826108af86135b90f6b264934ccbfaa48f205",
+      "path": "the-goal/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Agreeing, before any search for the limit, on the single rate the process exists to produce; counting a step as the limit only if speeding it up would lift that rate; not trusting complaints to locate the limit; drawing more from the constraint's present hours, with the other steps working to its pace, before paying to enlarge it; an explicit list of steps not to work on; and naming where the limit is likely to appear next.",
+      "text_reused": false,
+      "notice": "notices/glebis-claude-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/process-mapper/references/bottleneck_anti_patterns.md",
+      "licence": "MIT",
+      "contribution": "The longer discussion behind two points the template uses: an approval held for set days makes a long wait without any shortage of the approver's time, so shortening it is a matter of turnaround, not capacity; and work sent back is cheapest to prevent where the gap first enters, not by adding another check further on.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "glebis/claude-skills",
+      "commit": "3b8826108af86135b90f6b264934ccbfaa48f205",
+      "path": "the-goal/references/five-focusing-steps.md",
+      "licence": "MIT",
+      "contribution": "The longer discussion behind three ideas the template uses: draw more from a constraint's present hours before paying to enlarge it, which the template turns into its own short list of first options at the constraint; do not trust complaints to locate the limit; and expect the limit to move once it is relieved, so the review says where it is likely to go.",
+      "text_reused": false,
+      "notice": "notices/glebis-claude-skills-LICENSE.txt"
+    }
+  ]
+}
