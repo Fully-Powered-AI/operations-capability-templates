@@ -87,7 +87,7 @@ Testing in your environment means running it on last year's files for a site you
 
 - [Operations KPI scorecard](../operations-kpi-scorecard/)
 - [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
-- [Workplace risk assessment](../workplace-risk-assessment/)
+- [Workplace risk assessment](https://fullypowered.ai/workflows/workplace-risk-assessment/)
 
 ## Make it yours
 

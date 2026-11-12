@@ -82,7 +82,7 @@ Testing in your environment means running it on your own tables with hard cases 
 
 ## Related workflow templates
 
-- [Workplace risk assessment](../workplace-risk-assessment/)
+- [Workplace risk assessment](https://fullypowered.ai/workflows/workplace-risk-assessment/)
 - [Incident investigation and corrective actions](../incident-investigation-and-corrective-actions/)
 - [Premortem before a decision](../premortem-before-a-decision/)
 

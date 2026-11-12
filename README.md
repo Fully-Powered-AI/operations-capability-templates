@@ -2,7 +2,7 @@
 
 Work that runs the way your best person runs it, every time. These workflow templates capture how the work is really done, exceptions included, and prove a new way of working on real cases before anyone relies on it.
 
-This repository holds 11 workflow templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 10 workflow templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 
@@ -16,7 +16,6 @@ This repository holds 11 workflow templates for operations leaders and the peopl
 - **[SOP exception capture](sop-exception-capture/)**: Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.
 - **[Write an SOP from how the work is done](sop-from-how-the-work-is-done/)**: Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.
 - **[Workflow fit check: is this piece of work ready for AI?](workflow-fit-check/)**: Before you build anything, run one piece of work through six checks and get a straight answer on one short page: build it, build one part, do something simpler first, not yet, or leave it with your people. The owner decides what gets built first, with the reasons in front of them.
-- **[Workplace risk assessment](workplace-risk-assessment/)**: For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.
 
 ## How to use one
 
