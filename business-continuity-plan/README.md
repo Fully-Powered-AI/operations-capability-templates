@@ -2,7 +2,7 @@
 
 For an owner or operations manager: the activities the business cannot stop for long, how long each can be down and how much data it can lose, what each depends on, the fallback for each, and named owners, deputies, contacts and a test date, ready for a competent reviewer and the owner's approval.
 
-*Capability template · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/business-continuity-plan/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/business-continuity-plan/)*
 
 ## The outcome
 
@@ -14,7 +14,7 @@ Each weak spot arrives as a plain question for the person who decides. A compete
 
 ## Who starts the work, and when
 
-The owner, operations manager or office manager starts it: when the business has no written plan, when the old one no longer matches how the work is done, after a disruption or a near miss, before the busy season, when a key supplier, system, site or person changes, and on the review date. They gather the facts from the people who lead each activity and from the IT provider, then run the capability the same day.
+The owner, operations manager or office manager starts it: when the business has no written plan, when the old one no longer matches how the work is done, after a disruption or a near miss, before the busy season, when a key supplier, system, site or person changes, and on the review date. They gather the facts from the people who lead each activity and from the IT provider, then run the workflow template the same day.
 
 The competent reviewer, from inside the business or an outside adviser, reads the draft before the owner approves it.
 
@@ -49,13 +49,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-List the activities that count for your business and who leads each. Decide whether times are counted in calendar hours or working days, how old a proof may be before a fallback counts as unproven, and whether a target must sit a set margin inside the tolerable outage. Name your competent reviewer and who approves. Decide where the approved plan lives, how the people in it get their copy, and where the personal contact sheet is kept apart from it. Legal, regulatory and insurance duties for continuity planning differ by country, sector and policy, so your reviewer and advisers confirm which apply; the template cites none. The evacuation plan stays a separate document. It runs in ChatGPT, Claude, Copilot or Gemini from the tables and notes you supply, with no connection to any system. When a disruption has already happened, [incident investigation and corrective actions](https://fullypowered.ai/capabilities/incident-investigation-and-corrective-actions/) works out what went wrong; for hazards to people at work, use [workplace risk assessment](https://fullypowered.ai/capabilities/workplace-risk-assessment/).
+List the activities that count for your business and who leads each. Decide whether times are counted in calendar hours or working days, how old a proof may be before a fallback counts as unproven, and whether a target must sit a set margin inside the tolerable outage. Name your competent reviewer and who approves. Decide where the approved plan lives, how the people in it get their copy, and where the personal contact sheet is kept apart from it. Legal, regulatory and insurance duties for continuity planning differ by country, sector and policy, so your reviewer and advisers confirm which apply; the template cites none. The evacuation plan stays a separate document. It runs in ChatGPT, Claude, Copilot or Gemini from the tables and notes you supply, with no connection to any system. When a disruption has already happened, [incident investigation and corrective actions](https://fullypowered.ai/workflows/incident-investigation-and-corrective-actions/) works out what went wrong; for hazards to people at work, use [workplace risk assessment](https://fullypowered.ai/workflows/workplace-risk-assessment/).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in one run, by a model that had not written it; the record of that run is published with it. After two independent reviews, the example's output was corrected and a few clarifications were made to the template; the record lists them, and the example has not been run again since. That run did not reach the stop conditions. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in one run, by a model that had not written it; the record of that run is published with it. After two independent reviews, the example's output was corrected and a few clarifications were made to the template; the record lists them, and the example has not been run again since. That run did not reach the stop conditions. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on your own tables with hard cases written in advance, each with its expected behavior: a target equal to the tolerable outage, a fallback slower than the target, backups further apart than the data you can lose, a supplier whose only fallback is itself, a renamed column, a personal mobile number in the notes. The reviewer checks every time comparison against the tables before anyone relies on the plan. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on your own tables with hard cases written in advance, each with its expected behavior: a target equal to the tolerable outage, a fallback slower than the target, backups further apart than the data you can lose, a supplier whose only fallback is itself, a renamed column, a personal mobile number in the notes. The reviewer checks every time comparison against the tables before anyone relies on the plan. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on your own tables with hard cases 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,7 +80,7 @@ Testing in your environment means running it on your own tables with hard cases 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Workplace risk assessment](../workplace-risk-assessment/)
 - [Incident investigation and corrective actions](../incident-investigation-and-corrective-actions/)
@@ -88,4 +88,4 @@ Testing in your environment means running it on your own tables with hard cases 
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

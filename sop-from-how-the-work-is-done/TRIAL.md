@@ -75,4 +75,4 @@ Shortcomings of this trial: three runs, one model, on tidy invented inputs with 
 - **Shortfall 1.** The format's "How to tell" line now also allows a pointer to the earlier step or the supplied limit that answers the decision, as steps 4 and 8 of the recorded output have it.
 - **Shortfall 6.** The instructions now say that a team named only in what starts the work, before step 1, does no step and may stay as the doer named it, which is what the third run did.
 
-A sentence was also added under "When to use it and when not to", saying this capability comes first where nothing is written yet. The recorded output is unchanged.
+A sentence was also added under "When to use it and when not to", saying this workflow template comes first where nothing is written yet. The recorded output is unchanged.

@@ -8,7 +8,7 @@ The inputs are the invented example in `public/example.md` (the scope brief, the
 
 ## What came out
 
-The full draft, as the capability returned it:
+The full draft, as the workflow template returned it:
 
 ```
 BUSINESS CONTINUITY PLAN: Kitchen-equipment wholesaler, Warehouse and office at Unit 4

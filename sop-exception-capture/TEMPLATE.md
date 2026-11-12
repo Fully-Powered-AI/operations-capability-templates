@@ -1,6 +1,6 @@
 # SOP exception capture
 
-Capability template 0.1.0 · Operations and process improvement · Fully Powered AI
+Workflow template 0.1.0 · Operations and process improvement · Fully Powered AI
 
 ## Purpose
 

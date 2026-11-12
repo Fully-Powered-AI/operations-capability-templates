@@ -1,10 +1,10 @@
 {
   "id": "business-continuity-plan",
   "name": "Business continuity plan",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For an owner or operations manager: the activities the business cannot stop for long, how long each can be down and how much data it can lose, what each depends on, the fallback for each, and named owners, deputies, contacts and a test date, ready for a competent reviewer and the owner's approval.",
-  "directory": "https://fullypowered.ai/capabilities/business-continuity-plan/",
+  "directory": "https://fullypowered.ai/workflow templates/business-continuity-plan/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

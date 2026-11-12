@@ -1,10 +1,10 @@
 {
   "id": "incident-investigation-and-corrective-actions",
   "name": "Incident investigation and corrective actions",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.",
-  "directory": "https://fullypowered.ai/capabilities/incident-investigation-and-corrective-actions/",
+  "directory": "https://fullypowered.ai/workflow templates/incident-investigation-and-corrective-actions/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

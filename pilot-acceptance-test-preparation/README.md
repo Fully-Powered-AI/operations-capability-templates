@@ -2,11 +2,11 @@
 
 Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.
 
-*Capability template · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)*
 
 ## The outcome
 
-Every pilot ends in a clear decision, backed by evidence the whole team can read. Before the workflow touches real work, the pilot owner holds a complete acceptance test, written to your best person’s standard. A pilot that passes becomes a capability the whole team relies on from its first week.
+Every pilot ends in a clear decision, backed by evidence the whole team can read. Before the workflow touches real work, the pilot owner holds a complete acceptance test, written to your best person’s standard. A pilot that passes becomes a workflow the whole team relies on from its first week.
 
 ## Who starts the work, and when
 
@@ -43,7 +43,7 @@ Your owner names the expert and sets the local rules: which record wins when two
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing it in your environment means preparing the pack for one real pilot. Your owner and expert then confirm that the cases, rubric and pass rule cover what they would check by hand. [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record this produces.
 
@@ -56,10 +56,10 @@ Testing it in your environment means preparing the pack for one real pilot. Your
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -69,12 +69,12 @@ Testing it in your environment means preparing the pack for one real pilot. Your
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [SOP exception capture](../sop-exception-capture/)
-- [Account handoff](https://fullypowered.ai/capabilities/account-handoff/)
-- [Inquiry handoff](https://fullypowered.ai/capabilities/inquiry-handoff/)
+- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
+- [Inquiry handoff](https://fullypowered.ai/workflow templates/inquiry-handoff/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

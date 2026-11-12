@@ -1,10 +1,10 @@
 {
   "id": "preventive-maintenance-plan",
   "name": "Preventive maintenance plan",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For one site, the facilities or operations manager gets every piece of equipment ranked by failure cost, an approach for each (run to failure, scheduled or condition-based), a dated calendar of tasks from the maker's guidance and the failure history, the spare parts to hold and the downtime measures to track.",
-  "directory": "https://fullypowered.ai/capabilities/preventive-maintenance-plan/",
+  "directory": "https://fullypowered.ai/workflow templates/preventive-maintenance-plan/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

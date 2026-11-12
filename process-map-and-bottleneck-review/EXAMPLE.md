@@ -1,6 +1,6 @@
 # Process map and bottleneck review: an invented example
 
-*Illustrative example with invented data.* The company is an invented 25-person maker of custom signs for shops and offices. Its people, process, figures and notes are all invented, and everyone is named by role. First come the inputs the operations manager supplied, in full. Then comes the review the capability should return from them, worked to the template's rules.
+*Illustrative example with invented data.* The company is an invented 25-person maker of custom signs for shops and offices. Its people, process, figures and notes are all invented, and everyone is named by role. First come the inputs the operations manager supplied, in full. Then comes the review the workflow template should return from them, worked to the template's rules.
 
 ## The inputs
 

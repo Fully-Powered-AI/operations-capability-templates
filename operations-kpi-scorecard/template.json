@@ -1,10 +1,10 @@
 {
   "id": "operations-kpi-scorecard",
   "name": "Operations KPI scorecard",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Once a month the operations manager gets one red-amber-green page for the ten or fewer measures that run the operation: each value worked out from your own exports, its trend, what moved and why in the owner's words, and the action agreed for every red. You set the measures and decide the actions.",
-  "directory": "https://fullypowered.ai/capabilities/operations-kpi-scorecard/",
+  "directory": "https://fullypowered.ai/workflow templates/operations-kpi-scorecard/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

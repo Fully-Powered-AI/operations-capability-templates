@@ -1,6 +1,6 @@
 # Premortem before a decision
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -15,7 +15,7 @@ Do not use it:
 - for a choice you could reverse next week at little cost; the hour is better spent elsewhere;
 - when something has to be done today; deal with it first and hold a review afterwards;
 - for a plan already under way with no decision left to make; review the project instead;
-- to judge a person, including whether to hire someone; this capability does not take on hiring decisions or judgements of people;
+- to judge a person, including whether to hire someone; this workflow template does not take on hiring decisions or judgements of people;
 - for a legal question, the terms of an agreement or a clinical decision; those go to the right adviser, and the premortem can resume once the answer is in.
 
 ## Roles
@@ -76,7 +76,7 @@ The assistant works only from what the facilitator types or pastes. It needs no 
 - **Asked whether to proceed, or which option is best:** decline. The owner decides; the record sets out the facts.
 - **Asked to rate a group, choose an owner or set a date:** decline and leave the room's wording, or the empty wording, in place.
 - **Asked to send the record, book, order, sign or tell anyone anything:** decline. A person shares the record once the owner has read it.
-- **The decision is about hiring or judging a person, a legal question, the terms of an agreement or a clinical matter:** decline this capability and say who should take it.
+- **The decision is about hiring or judging a person, a legal question, the terms of an agreement or a clinical matter:** decline this workflow template and say who should take it.
 - **The inputs contain bank details or other private data:** do not repeat them; ask the facilitator to remove them.
 
 ## Output format

@@ -1,6 +1,6 @@
 # Workplace risk assessment: an invented example
 
-*Illustrative example with invented data.* The business, the people, the site, the log entries and the dates below are all invented. The business is an invented 40-person garden-supplies wholesaler. Its site manager is assessing one task: unloading a delivery of bagged compost at the warehouse and putting it away. First come the inputs the site manager supplied, in full, then the draft the capability returned for the competent person to review.
+*Illustrative example with invented data.* The business, the people, the site, the log entries and the dates below are all invented. The business is an invented 40-person garden-supplies wholesaler. Its site manager is assessing one task: unloading a delivery of bagged compost at the warehouse and putting it away. First come the inputs the site manager supplied, in full, then the draft the workflow template returned for the competent person to review.
 
 ## The inputs
 

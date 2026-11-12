@@ -2,7 +2,7 @@
 
 Map one process step by step: who does each step, how long work waits and how long it takes, where it is handed over and where it gets sent back. Then find the one step that caps how much gets finished, and what to try there first. The owner decides what changes.
 
-*Capability template · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/process-map-and-bottleneck-review/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/process-map-and-bottleneck-review/)*
 
 ## The outcome
 
@@ -62,9 +62,9 @@ Choose the process and name its owner. Agree the one number the process exists t
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record of that run is published with it. The figures and the finding matched the example, and the record lists the places where the instructions left the assistant a choice. Small clarifications made afterward, to settle those places, have not been run again; the record lists them. One run on an invented example is not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record of that run is published with it. The figures and the finding matched the example, and the record lists the places where the instructions left the assistant a choice. Small clarifications made afterward, to settle those places, have not been run again; the record lists them. One run on an invented example is not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a process whose bottleneck you already know, and on one you changed in the past where you know what happened next, then checking every figure by hand. Hard cases belong in the test set: a step everyone blames that is not the limit, a long wait caused by an approval day rather than by lack of time, and estimates that disagree with what is actually finished. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set. When the review points at a step worth handing to AI, [Workflow fit check](https://fullypowered.ai/capabilities/workflow-fit-check/) says whether it is ready, and [Write an SOP from how the work is done](https://fullypowered.ai/capabilities/sop-from-how-the-work-is-done/) writes down the changed step once the owner approves it.
+Testing in your environment means running it on a process whose bottleneck you already know, and on one you changed in the past where you know what happened next, then checking every figure by hand. Hard cases belong in the test set: a step everyone blames that is not the limit, a long wait caused by an approval day rather than by lack of time, and estimates that disagree with what is actually finished. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set. When the review points at a step worth handing to AI, [Workflow fit check](https://fullypowered.ai/workflows/workflow-fit-check/) says whether it is ready, and [Write an SOP from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/) writes down the changed step once the owner approves it.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -75,11 +75,11 @@ Testing in your environment means running it on a process whose bottleneck you a
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -89,7 +89,7 @@ Testing in your environment means running it on a process whose bottleneck you a
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Workflow fit check: is this piece of work ready for AI?](../workflow-fit-check/)
 - [Write an SOP from how the work is done](../sop-from-how-the-work-is-done/)
@@ -97,4 +97,4 @@ Testing in your environment means running it on a process whose bottleneck you a
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

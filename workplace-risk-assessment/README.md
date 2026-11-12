@@ -2,7 +2,7 @@
 
 For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.
 
-*Capability template · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/workplace-risk-assessment/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/workplace-risk-assessment/)*
 
 ## The outcome
 
@@ -14,7 +14,7 @@ A competent person reviews the draft, settles the open decisions and signs it. T
 
 ## Who starts the work, and when
 
-The site manager, office manager or operations manager responsible for the task starts it: before a new task begins, when the equipment, materials, people or place change, after a near miss shows the old assessment missed something, and on the review date. They walk the task with the people who do it first, then run the capability on their notes the same day.
+The site manager, office manager or operations manager responsible for the task starts it: before a new task begins, when the equipment, materials, people or place change, after a near miss shows the old assessment missed something, and on the review date. They walk the task with the people who do it first, then run the workflow template on their notes the same day.
 
 The competent person, from inside the business or an outside adviser, reviews and signs before the assessment is shared.
 
@@ -49,13 +49,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-Set your own rating scale or keep the one supplied, and decide how many days a High hazard's fix may take. Name your competent person for each kind of work, and who names owners and dates. Decide how often each assessment is reviewed, where signed assessments are kept and how the people who do the work see theirs. Legal duties for risk assessment differ by country and by sector, so your competent person confirms which apply; the template cites none. Work that needs measuring, such as noise or dust, goes to a specialist. It runs in ChatGPT, Claude, Copilot or Gemini from the notes and records you supply, with no connection to any system. When the steps themselves need writing down first, [SOP from how the work is done](https://fullypowered.ai/capabilities/sop-from-how-the-work-is-done/) does that, and [training needs analysis](https://fullypowered.ai/capabilities/training-needs-analysis/) picks up the training an action calls for.
+Set your own rating scale or keep the one supplied, and decide how many days a High hazard's fix may take. Name your competent person for each kind of work, and who names owners and dates. Decide how often each assessment is reviewed, where signed assessments are kept and how the people who do the work see theirs. Legal duties for risk assessment differ by country and by sector, so your competent person confirms which apply; the template cites none. Work that needs measuring, such as noise or dust, goes to a specialist. It runs in ChatGPT, Claude, Copilot or Gemini from the notes and records you supply, with no connection to any system. When the steps themselves need writing down first, [SOP from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/) does that, and [training needs analysis](https://fullypowered.ai/workflows/training-needs-analysis/) picks up the training an action calls for.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs: the template was revised after an independent review of the first, and the record of the second is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs: the template was revised after an independent review of the first, and the record of the second is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three tasks your competent person already knows well, plus hard cases written in advance, each with its expected behavior: a request for "the whole warehouse", a log with a renamed column, a fix dated after the deadline, a noise hazard controlled by ear plugs alone, a name and an injury in the notes. The competent person checks every rating and every hazard against the walk-round before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three tasks your competent person already knows well, plus hard cases written in advance, each with its expected behavior: a request for "the whole warehouse", a log with a renamed column, a fix dated after the deadline, a noise hazard controlled by ear plugs alone, a name and an injury in the notes. The competent person checks every rating and every hazard against the walk-round before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on two or three tasks your competen
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,12 +80,12 @@ Testing in your environment means running it on two or three tasks your competen
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Write an SOP from how the work is done](../sop-from-how-the-work-is-done/)
-- [Training needs analysis](https://fullypowered.ai/capabilities/training-needs-analysis/)
+- [Training needs analysis](https://fullypowered.ai/workflow templates/training-needs-analysis/)
 - [SOP exception capture](../sop-exception-capture/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

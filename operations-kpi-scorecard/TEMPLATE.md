@@ -1,6 +1,6 @@
 # Operations KPI scorecard
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it once a month, after the month's exports are out and before the operations
 
 Do not use it:
 
-- to choose the measures or set the targets. The operations manager writes the measure sheet first; this capability reads it and checks it;
+- to choose the measures or set the targets. The operations manager writes the measure sheet first; this workflow template reads it and checks it;
 - for financial results such as revenue, margin, receivables or spend against budget. Those belong to finance's own monthly work;
 - to define a service promise to customers, such as response or resolution times. That is a separate piece of work;
 - to judge or compare individual employees. The scorecard covers the operation, never a person's performance;

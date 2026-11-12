@@ -1,10 +1,10 @@
 {
   "id": "process-map-and-bottleneck-review",
   "name": "Process map and bottleneck review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Map one process step by step: who does each step, how long work waits and how long it takes, where it is handed over and where it gets sent back. Then find the one step that caps how much gets finished, and what to try there first. The owner decides what changes.",
-  "directory": "https://fullypowered.ai/capabilities/process-map-and-bottleneck-review/",
+  "directory": "https://fullypowered.ai/workflow templates/process-map-and-bottleneck-review/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

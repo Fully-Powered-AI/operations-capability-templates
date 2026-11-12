@@ -2,7 +2,7 @@
 
 *Illustrative example with invented data.* The business, the people, the incident, the evidence and every date below are invented. The business is an invented builders' merchant with two timber yards. Its operations manager leads the investigation; its external safety adviser is the qualified person. The inputs refer to people by job role, as the business asks of everyone who writes up an incident.
 
-The inputs come first, in full, so the template can be run on them. The record the capability returned follows. After it comes an update run on the same register, nineteen days later, with its inputs and what it returned.
+The inputs come first, in full, so the template can be run on them. The record the workflow template returned follows. After it comes an update run on the same register, nineteen days later, with its inputs and what it returned.
 
 ## The inputs
 

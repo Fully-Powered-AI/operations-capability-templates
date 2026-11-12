@@ -2,7 +2,7 @@
 
 Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.
 
-*Capability template · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/premortem-before-a-decision/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/premortem-before-a-decision/)*
 
 ## The outcome
 
@@ -55,9 +55,9 @@ Decide which decisions get a premortem, for example anything over a set amount o
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template, drawing on a published open-source method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template, drawing on a published open-source method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a decision your team made a year or more ago and knows the outcome of, with the reasons written fresh by people who were there, plus hard cases written in advance: a reason that fits no group, a rating outside the scale, a top risk nobody owns. The owner checks the ranking against the ratings before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets up those cases, and when the plan is a launch, [Launch checklist](https://fullypowered.ai/capabilities/launch-checklist/) carries the agreed checks into the dated steps.
+Testing in your environment means running it on a decision your team made a year or more ago and knows the outcome of, with the reasons written fresh by people who were there, plus hard cases written in advance: a reason that fits no group, a rating outside the scale, a top risk nobody owns. The owner checks the ranking against the ratings before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets up those cases, and when the plan is a launch, [Launch checklist](https://fullypowered.ai/workflows/launch-checklist/) carries the agreed checks into the dated steps.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -68,11 +68,11 @@ Testing in your environment means running it on a decision your team made a year
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -82,12 +82,12 @@ Testing in your environment means running it on a decision your team made a year
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Launch checklist](https://fullypowered.ai/capabilities/launch-checklist/)
+- [Launch checklist](https://fullypowered.ai/workflow templates/launch-checklist/)
 - [Pilot acceptance-test preparation](../pilot-acceptance-test-preparation/)
 - [Workflow fit check: is this piece of work ready for AI?](../workflow-fit-check/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -5,7 +5,7 @@
 - **Date:** 2026-11-10
 - **Template version:** 0.1.0
 
-This is a record of one run of the capability template on its own invented example. The business, the people, the incident, the evidence and the dates are invented, and no client data was used. It shows what the template produced on one set of inputs, and then on one update to the register those inputs started. It is not a test in any company's environment.
+This is a record of one run of the workflow template on its own invented example. The business, the people, the incident, the evidence and the dates are invented, and no client data was used. It shows what the template produced on one set of inputs, and then on one update to the register those inputs started. It is not a test in any company's environment.
 
 This is the second run on the same example. The first run, earlier the same day, was made by an assistant that had not written the template. It, and an independent review of the template afterwards, found where the instructions left room to guess and where the published example went beyond its own inputs. The instructions, the output format and the example's output were revised, and the run recorded here was made on the revised instructions. What the first run found, and what was changed, follows the observations. After that come an update run on the same register, made after a second review, and what that review changed.
 

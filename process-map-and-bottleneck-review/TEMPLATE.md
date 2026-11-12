@@ -1,6 +1,6 @@
 # Process map and bottleneck review
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Use it when people disagree about why one process takes so long, when work piles
 Do not use it:
 
 - for several processes at once. One process per run; if the material covers more, the owner picks one;
-- to write the procedure itself. That is the companion capability, Write an SOP from how the work is done;
+- to write the procedure itself. That is the companion workflow template, Write an SOP from how the work is done;
 - to judge whether a piece of work is ready for AI. That is Workflow fit check, which can follow once this review has named the step worth changing;
 - for work done once, such as a project, which has no steady flow of items to measure;
 - to judge how well a person works, to set anyone's workload or terms, or to decide whether to add staff. The review is about the process; it names roles, never individuals, and adding capacity is the owner's call;

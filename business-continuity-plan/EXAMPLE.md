@@ -1,6 +1,6 @@
 # Business continuity plan: an invented example
 
-*Illustrative example with invented data.* The business, the people, the suppliers, the phone numbers, the dates and the times below are all invented, and the phone numbers use the 555-01xx range kept for fiction. The business is an invented 32-person kitchen-equipment wholesaler with one warehouse and office, at Unit 4. Its operations manager prepared the plan. First come the inputs she supplied, in full, then the draft the capability returned for the competent reviewer and the owner.
+*Illustrative example with invented data.* The business, the people, the suppliers, the phone numbers, the dates and the times below are all invented, and the phone numbers use the 555-01xx range kept for fiction. The business is an invented 32-person kitchen-equipment wholesaler with one warehouse and office, at Unit 4. Its operations manager prepared the plan. First come the inputs she supplied, in full, then the draft the workflow template returned for the competent reviewer and the owner.
 
 ## The inputs
 

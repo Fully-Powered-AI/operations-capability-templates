@@ -1,6 +1,6 @@
 # Write an SOP from how the work is done
 
-Capability template 0.1.0 · Operations and process improvement · Fully Powered AI
+Workflow template 0.1.0 · Operations and process improvement · Fully Powered AI
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Do not use it:
 
 - for several procedures at once. Write one per run, starting with the owner's choice;
 - to redesign the work. It records today's practice; ideas for improvement are listed as questions, never written into the steps;
-- when a written procedure already exists and the need is the awkward cases. That is the companion capability, SOP exception capture, which works from real cases and a conversation with the expert. Where nothing is written yet, this capability comes first;
+- when a written procedure already exists and the need is the awkward cases. That is the companion workflow template, SOP exception capture, which works from real cases and a conversation with the expert. Where nothing is written yet, this workflow template comes first;
 - to write rules for a reserved judgment such as legal advice, a clinical decision or a hiring decision. The procedure records who makes that judgment and when the work goes to them, nothing more. Employment documents and contract wording are out of scope.
 
 ## Roles

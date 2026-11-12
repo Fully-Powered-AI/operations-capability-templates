@@ -1,10 +1,10 @@
 {
   "id": "workplace-risk-assessment",
   "name": "Workplace risk assessment",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.",
-  "directory": "https://fullypowered.ai/capabilities/workplace-risk-assessment/",
+  "directory": "https://fullypowered.ai/workflow templates/workplace-risk-assessment/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

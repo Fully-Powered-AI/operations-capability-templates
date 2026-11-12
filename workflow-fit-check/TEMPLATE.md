@@ -1,6 +1,6 @@
 # Workflow fit check: is this piece of work ready for AI?
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 

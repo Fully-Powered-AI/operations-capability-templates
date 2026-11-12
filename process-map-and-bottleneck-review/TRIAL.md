@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-I tried this capability template once, on its own invented example. The inputs are the invented example's; no client data was used. I did not write the template. I read the template, took only the inputs from `public/example.md` (the process request, the six-step table, the role hours and the four notes), followed the instruction block and the output format, and only then compared my output with the example's output and the reviewer checklist.
+I tried this workflow template once, on its own invented example. The inputs are the invented example's; no client data was used. I did not write the template. I read the template, took only the inputs from `public/example.md` (the process request, the six-step table, the role hours and the four notes), followed the instruction block and the output format, and only then compared my output with the example's output and the reviewer checklist.
 
 ## Inputs used
 
