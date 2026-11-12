@@ -2,7 +2,7 @@
 
 Turn what your most experienced person does with the awkward cases into an exception register for one procedure. Once the owner approves it, every colleague handles those cases the way your best person does.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/sop-exception-capture/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/sop-exception-capture/)*
 
 ## The outcome
 
@@ -76,8 +76,8 @@ Testing in your environment means running it on one of your procedures and cases
 ## Related workflow templates
 
 - [Pilot acceptance-test preparation](../pilot-acceptance-test-preparation/)
-- [Employee onboarding plan](https://fullypowered.ai/workflow templates/employee-onboarding-plan/)
-- [Matter-opening checklist preparation](https://fullypowered.ai/workflow templates/matter-opening-checklist-preparation/)
+- [Employee onboarding plan](https://fullypowered.ai/workflows/employee-onboarding-plan/)
+- [Matter-opening checklist preparation](https://fullypowered.ai/workflows/matter-opening-checklist-preparation/)
 
 ## Make it yours
 

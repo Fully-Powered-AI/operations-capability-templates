@@ -2,7 +2,7 @@
 
 Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)*
 
 ## The outcome
 
@@ -72,8 +72,8 @@ Testing it in your environment means preparing the pack for one real pilot. Your
 ## Related workflow templates
 
 - [SOP exception capture](../sop-exception-capture/)
-- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
-- [Inquiry handoff](https://fullypowered.ai/workflow templates/inquiry-handoff/)
+- [Account handoff](https://fullypowered.ai/workflows/account-handoff/)
+- [Inquiry handoff](https://fullypowered.ai/workflows/inquiry-handoff/)
 
 ## Make it yours
 

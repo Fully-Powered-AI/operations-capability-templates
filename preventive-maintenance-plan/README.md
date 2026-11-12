@@ -2,7 +2,7 @@
 
 For one site, the facilities or operations manager gets every piece of equipment ranked by failure cost, an approach for each (run to failure, scheduled or condition-based), a dated calendar of tasks from the maker's guidance and the failure history, the spare parts to hold and the downtime measures to track.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/preventive-maintenance-plan/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/preventive-maintenance-plan/)*
 
 ## The outcome
 
@@ -86,7 +86,7 @@ Testing in your environment means running it on last year's files for a site you
 ## Related workflow templates
 
 - [Operations KPI scorecard](../operations-kpi-scorecard/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
 - [Workplace risk assessment](../workplace-risk-assessment/)
 
 ## Make it yours

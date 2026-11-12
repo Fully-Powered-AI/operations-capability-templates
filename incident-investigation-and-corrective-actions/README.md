@@ -2,7 +2,7 @@
 
 After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/incident-investigation-and-corrective-actions/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incident-investigation-and-corrective-actions/)*
 
 ## The outcome
 
@@ -82,7 +82,7 @@ Testing in your environment means running it on two or three past incidents your
 ## Related workflow templates
 
 - [Write an SOP from how the work is done](../sop-from-how-the-work-is-done/)
-- [Training needs analysis](https://fullypowered.ai/workflow templates/training-needs-analysis/)
+- [Training needs analysis](https://fullypowered.ai/workflows/training-needs-analysis/)
 - [SOP exception capture](../sop-exception-capture/)
 
 ## Make it yours

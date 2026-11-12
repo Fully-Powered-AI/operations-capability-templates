@@ -2,7 +2,7 @@
 
 Once a month the operations manager gets one red-amber-green page for the ten or fewer measures that run the operation: each value worked out from your own exports, its trend, what moved and why in the owner's words, and the action agreed for every red. You set the measures and decide the actions.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/operations-kpi-scorecard/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/operations-kpi-scorecard/)*
 
 ## The outcome
 
@@ -79,7 +79,7 @@ Testing in your environment means running it on two or three past months your op
 
 - [Incident investigation and corrective actions](../incident-investigation-and-corrective-actions/)
 - [SOP exception capture](../sop-exception-capture/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/sop-from-how-the-work-is-done/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/)*
 
 ## The outcome
 
@@ -77,7 +77,7 @@ Testing in your environment means running it on one of your own procedures, then
 
 - [SOP exception capture](../sop-exception-capture/)
 - [Pilot acceptance-test preparation](../pilot-acceptance-test-preparation/)
-- [Employee onboarding plan](https://fullypowered.ai/workflow templates/employee-onboarding-plan/)
+- [Employee onboarding plan](https://fullypowered.ai/workflows/employee-onboarding-plan/)
 
 ## Make it yours
 

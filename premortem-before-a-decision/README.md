@@ -2,7 +2,7 @@
 
 Before your team commits to a plan that is hard to undo, such as a move, a launch or a new system, a short workshop pictures it a few months on, already failed. The record ranks the reasons, turns each top risk into a check, a warning sign and an owner, and leaves the go decision with the owner.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/premortem-before-a-decision/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/premortem-before-a-decision/)*
 
 ## The outcome
 
@@ -84,7 +84,7 @@ Testing in your environment means running it on a decision your team made a year
 
 ## Related workflow templates
 
-- [Launch checklist](https://fullypowered.ai/workflow templates/launch-checklist/)
+- [Launch checklist](https://fullypowered.ai/workflows/launch-checklist/)
 - [Pilot acceptance-test preparation](../pilot-acceptance-test-preparation/)
 - [Workflow fit check: is this piece of work ready for AI?](../workflow-fit-check/)
 

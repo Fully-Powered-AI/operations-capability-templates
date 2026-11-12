@@ -2,7 +2,7 @@
 
 For one task or workplace, the site or operations manager gets each hazard, who could be harmed, the controls already in place, a likelihood-and-severity rating before and after, and further controls with an owner and a date, ready for a competent person to review and sign.
 
-*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/workplace-risk-assessment/)*
+*Workflow template · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workplace-risk-assessment/)*
 
 ## The outcome
 
@@ -83,7 +83,7 @@ Testing in your environment means running it on two or three tasks your competen
 ## Related workflow templates
 
 - [Write an SOP from how the work is done](../sop-from-how-the-work-is-done/)
-- [Training needs analysis](https://fullypowered.ai/workflow templates/training-needs-analysis/)
+- [Training needs analysis](https://fullypowered.ai/workflows/training-needs-analysis/)
 - [SOP exception capture](../sop-exception-capture/)
 
 ## Make it yours

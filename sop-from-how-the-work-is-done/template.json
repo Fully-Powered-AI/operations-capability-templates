@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Turn a walkthrough of how one piece of work is really done into a written procedure anyone on the team can follow: who does each step, how they know it is done, what to do when it goes wrong and when to stop and ask. The owner approves it before anyone relies on it.",
-  "directory": "https://fullypowered.ai/workflow templates/sop-from-how-the-work-is-done/",
+  "directory": "https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

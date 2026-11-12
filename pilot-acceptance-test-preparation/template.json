@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.",
-  "directory": "https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/",
+  "directory": "https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",
