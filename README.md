@@ -2,11 +2,12 @@
 
 Work that runs the way your best person runs it, every time. These workflow templates capture how the work is really done, exceptions included, and prove a new way of working on real cases before anyone relies on it.
 
-This repository holds 10 workflow templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 11 workflow templates for operations leaders and the people who own a process. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 
 - **[Business continuity plan](business-continuity-plan/)**: For an owner or operations manager: the activities the business cannot stop for long, how long each can be down and how much data it can lose, what each depends on, the fallback for each, and named owners, deputies, contacts and a test date, ready for a competent reviewer and the owner's approval.
+- **[Client service level report](client-service-level-report/)**: At the end of each reporting period, the service delivery manager gets the report a client contract calls for: every service level measured from your own records, each miss explained by those records, the credits the contract states listed for a person to confirm, and the open questions. Nothing is sent.
 - **[Incident investigation and corrective actions](incident-investigation-and-corrective-actions/)**: After an injury, near miss or property damage, the site, operations or safety manager gets the investigation written up from the evidence: a timeline, the immediate and underlying causes, actions with owners and dates, and a register that follows each action until a check shows it worked.
 - **[Operations KPI scorecard](operations-kpi-scorecard/)**: Once a month the operations manager gets one red-amber-green page for the ten or fewer measures that run the operation: each value worked out from your own exports, its trend, what moved and why in the owner's words, and the action agreed for every red. You set the measures and decide the actions.
 - **[Pilot acceptance-test preparation](pilot-acceptance-test-preparation/)**: Go into every AI pilot with the test already written: the cases that matter, what good looks like for each and the rule your owner will use to decide.

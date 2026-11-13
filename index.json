@@ -12,6 +12,14 @@
       "directory": "https://fullypowered.ai/workflows/business-continuity-plan/"
     },
     {
+      "id": "client-service-level-report",
+      "name": "Client service level report",
+      "version": "0.1.0",
+      "summary": "At the end of each reporting period, the service delivery manager gets the report a client contract calls for: every service level measured from your own records, each miss explained by those records, the credits the contract states listed for a person to confirm, and the open questions. Nothing is sent.",
+      "path": "client-service-level-report/",
+      "directory": "https://fullypowered.ai/workflows/client-service-level-report/"
+    },
+    {
       "id": "incident-investigation-and-corrective-actions",
       "name": "Incident investigation and corrective actions",
       "version": "0.1.0",

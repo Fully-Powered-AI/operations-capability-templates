@@ -1,0 +1,47 @@
+{
+  "id": "client-service-level-report",
+  "name": "Client service level report",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "At the end of each reporting period, the service delivery manager gets the report a client contract calls for: every service level measured from your own records, each miss explained by those records, the credits the contract states listed for a person to confirm, and the open questions. Nothing is sent.",
+  "directory": "https://fullypowered.ai/workflows/client-service-level-report/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/software-technology",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "operations-kpi-scorecard",
+    "support-service-level-definition",
+    "client-status-update-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of the work, and its own rules for prepared work: the contract's service levels set out once by a person as the only authority, fixed inputs that stop on a mismatch, every result shown with its working, every gap written as a question, and a person who confirms exclusions and credits and sends the report."
+    }
+  ]
+}
